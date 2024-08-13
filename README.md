@@ -9,6 +9,7 @@ The pre-processing to SAR amplitude images involves four key steps:
 > **Step 3**: Composite three bands.
 > 
 > **Step 4**: Stretch
+
 We warp these steps in function `Mosaic_all` in  `pre_process_batch.py`. The function need four input parameter:
 > filepath: The filepath of the images.
 >
