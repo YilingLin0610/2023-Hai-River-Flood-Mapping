@@ -6,18 +6,22 @@ The pre-processing to SAR amplitude images involves four key steps:
 **Step 1**: Mosaic the VV and VH images of the same track and same day separately.
 We can store the original VV and VH images in a folder.
 ```sh
-- datasets
-
--- 2019
-
---- images
-
---- labels
-
---- masks
-
--- 2020
-
+- date-A (e.g. August 1st)
+-- Scene-A1
+--- VV.tif
+--- VH.tif
+-- Scene-A2
+--- VV.tif
+--- VH.tif
+-- ...
+- date-B (e.g. August 13th)
+-- Scene-B1
+--- VV.tif
+--- VH.tif
+-- Scene-B2
+--- VV.tif
+--- VH.tif
+-- ...
 ```
 
 
