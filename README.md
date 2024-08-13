@@ -6,7 +6,7 @@ The pre-processing to SAR amplitude images involves four key steps:
 **Step 1**: Mosaic the VV and VH images of the same track and same day separately.
 We can store the original VV and VH images in a folder.
 ```sh
-- date-A (e.g. August 1st)
+- ## date-A (e.g. August 1st)
   -- Scene-A1
    --- VV.tif
    --- VH.tif
@@ -14,7 +14,7 @@ We can store the original VV and VH images in a folder.
    --- VV.tif
    --- VH.tif
   -- ...
-- date-B (e.g. August 13th)
+- ## date-B (e.g. August 13th)
   -- Scene-B1
    --- VV.tif
    --- VH.tif
