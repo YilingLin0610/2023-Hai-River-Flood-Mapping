@@ -28,4 +28,9 @@ We store the original VV and VH images in a folder. Images from the same date ar
 > The clip percentage is set as 0.5%.
 
 ## 2. Deep learning framework
+### 2.1 Training samples
+### 2.2 DeepLabv3+ Model
+The trained checkpoint is stored
+### 2.3 Post-processing
+
 
