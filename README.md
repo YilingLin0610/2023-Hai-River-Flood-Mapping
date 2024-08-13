@@ -7,19 +7,17 @@ The pre-processing to SAR amplitude images involves four key steps:
 > We can store the original VV and VH images in a folder.
 > ```sh
 - datasets
--- 2019
---- images
---- labels
---- masks
--- 2020
--- 
- 
-The multi-annual RTS 
-- DANN RTS Segmentation
--- model_data
---- deeplab_mobilenetv2.pth
 
-- logs
+-- 2019
+
+--- images
+
+--- labels
+
+--- masks
+
+-- 2020
+
 ```
 
 
