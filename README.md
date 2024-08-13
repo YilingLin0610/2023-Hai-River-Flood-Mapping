@@ -8,5 +8,4 @@ The Pre-processing to SAR amplitude images contains four steps. We warp these st
 > Step 3: Composite three bands.
 > 
 > Step 4: Stretch
-``
 ### 1.1 Orbits
