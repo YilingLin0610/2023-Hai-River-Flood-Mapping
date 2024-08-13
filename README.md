@@ -3,12 +3,9 @@ This repository contains data and codes used in manuscript "Reconstruction of th
 ## 1. Pre-processing to SAR amplitude images.
 The Pre-processing to SAR amplitude images contains four steps. We warp these steps in `pre_process_batch.py`
 ```sh
-Step 1: Mosaic the VV and VH images of the same track and same day separately.
-
+Step 1: Mosaic the VV and VH images of the same track and same day separately
 Step 2: Clip the mosaic VV and VH images to the extent of the Hai River Basin.
-
 Step 3: Composite three bands.
-
 Step 4: Stretch
 ``
 ### 1.1 Orbits
