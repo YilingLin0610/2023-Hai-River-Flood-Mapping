@@ -4,8 +4,8 @@ This repository contains data and codes used in manuscript "Reconstruction of th
 The pre-processing to SAR amplitude images involves four key steps:
 
 **Step 1**: Mosaic the VV and VH images of the same track and same day separately.
-> We can store the original VV and VH images in a folder.
-> ```sh
+We can store the original VV and VH images in a folder.
+```sh
 - datasets
 
 -- 2019
