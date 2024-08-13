@@ -7,21 +7,21 @@ The pre-processing to SAR amplitude images involves four key steps:
 We can store the original VV and VH images in a folder.
 ```sh
 - date-A (e.g. August 1st)
--- Scene-A1
---- VV.tif
---- VH.tif
--- Scene-A2
---- VV.tif
---- VH.tif
--- ...
+  -- Scene-A1
+   --- VV.tif
+   --- VH.tif
+  -- Scene-A2
+   --- VV.tif
+   --- VH.tif
+  -- ...
 - date-B (e.g. August 13th)
--- Scene-B1
---- VV.tif
---- VH.tif
--- Scene-B2
---- VV.tif
---- VH.tif
--- ...
+  -- Scene-B1
+   --- VV.tif
+   --- VH.tif
+  -- Scene-B2
+   --- VV.tif
+   --- VH.tif
+  -- ...
 - ...
 ```
 
