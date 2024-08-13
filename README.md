@@ -22,6 +22,7 @@ We can store the original VV and VH images in a folder.
 --- VV.tif
 --- VH.tif
 -- ...
+- ...
 ```
 
 
@@ -34,8 +35,4 @@ We can store the original VV and VH images in a folder.
 
 **Step 4**: Stretch
 
-We warp these steps in function `Mosaic_all` in  `pre_process_batch.py`.  Two issues about the input data of the function must be clarified here.
-### 1.1 Orbits file
-The entire Hai River Basin (HRB) is covered by four orbit path of Sentinel-1. We create shapefiles to represent the four orbits's extent and clip them to the extent of the HRB. Then we use them to clip the mosaicked images, thereby narrowing the processing area and saving processing time. The four orbits files are uploaded to `Pre-processing/orbits`
 
-### 1.1 Orbits
