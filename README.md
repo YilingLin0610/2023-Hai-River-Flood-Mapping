@@ -10,12 +10,6 @@ The pre-processing to SAR amplitude images involves four key steps:
 > 
 > **Step 4**: Stretch
 
-We warp these steps in function `Mosaic_all` in  `pre_process_batch.py`. The function need four input parameter:
-> filepath: The filepath of the images.
->
-> shpfile: The shapefiles (orbits extent) used to clip images into HRB extent.
->
-> mosaic_path: The filepath storing the final result images.
->
->  images_target_name: The target images as references of histogram matching
+We warp these steps in function `Mosaic_all` in  `pre_process_batch.py`.  Here we clarify the structure of input SAR amplitude images. The entire Hai River Basin (HRB) is covered by four orbit path of Sentinel-1. We clip these orbit paths to the extent of the HRB and use them to clip the mosaicked images, thereby narrowing the processing area and saving processing time. The orbits files are uploaded to `Pre-processing\orbits`
+
 ### 1.1 Orbits
