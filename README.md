@@ -30,9 +30,9 @@ We store the original VV and VH images in a folder. Images from the same date ar
 ## 2. Deep learning framework
 ### 2.1 Training samples
 The training samples for the deep learning model are sourced from both Beijing and Caofeidian, Hebei. The ground truth shapefiles are available in the `Deep-learning/Ground_truth` .
-And the codes processing the ground truth shapefiles into training and label images can be modified from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.
+The code for processing the ground truth shapefiles into training and label images of deep learning models can be adapted from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.
 ### 2.2 DeepLabv3+ Model
-The trained checkpoint is stored
+We utilized 
 ### 2.3 Post-processing
 
 
