@@ -47,7 +47,7 @@ https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
 For environment configuration, refer to file `env.yaml`
 > conda env create -f env.yaml
 #### 2.2.2 Train
-You can simply run `main_batch.py` to train the model. 
+**You can simply run `main_batch.py` to train the model.**
 
 We have adopted MobileNetV2 as the backbone, which can be found in the `deeplabv3-plus-pytorch-main/model_data`.
 
@@ -61,6 +61,7 @@ We have adopted MobileNetV2 as the backbone, which can be found in the `deeplabv
 Here we offer two checkpoints to predict the flood extent. 
 *  `logs/0712_Beijing_with_negative_st/best_epoch_weights.pth` for predicting natural water bodies.
 *  `logs/0712_Beijing_with_negative_st_0601_plus_0712_V2_more_negative/best_epoch_weights.pth` for predicting manual water bodies on coastal areas.
+
 The structure of testing images are organized as below:
 ```sh
 - date1 (e.g. 0601) 
