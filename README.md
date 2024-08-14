@@ -5,41 +5,8 @@ This repository contains data and codes used in manuscript "Reconstruction of Th
 - [1. Pre-processing to SAR amplitude images](#1-pre-processing-to-sar-amplitude-images)
 - [2. Deep learning framework](#2-Deep-learning-framework)
     - [2.1 Training samples](#21-training-samples)
-    * 单行文本
-    * 多行文本
-    * 换行
-    * 文字高亮
-    * 斜体
-    * 粗体
-    * 删除线
-* [图片](#图片)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
-* [链接](#链接) 
-    * 文字超链接
-        *  链接外部URL
-        *  链接本仓库里的URL
-    *  锚点
-    * [图片链接](#图片链接)
-    * Reference索引超链
-    * 自动链接
-* [列表](#列表)
-    * 无序列表
-    * 有序列表
-    * 复选框列表
-* [块引用](#块引用)
-* [代码高亮](#代码高亮)
-* [表格](#表格) 
-* [表情](#表情)
-* [diff语法](#diff语法)
-* [details折叠语法](#details折叠语法)
-* [注释](#注释)
-* [其他](#其他)
-    * github markdown暂不支持的功能
-    * 上标
-    * 下标
-    * 脚注(参考资料注解)
-    * 自定义锚点
+    - [2.2 DeepLabv3+ Model](#22-DeepLabv3+-Model)
+
 
 
 
