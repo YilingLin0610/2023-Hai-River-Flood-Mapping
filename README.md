@@ -4,7 +4,7 @@ This repository contains data and codes used in manuscript "Reconstruction of Th
 ## Table of Contents
 - [1. Pre-processing to SAR amplitude images](#1-pre-processing-to-sar-amplitude-images)
 - [2. Deep learning framework](#2-Deep-learning-framework)
-    * [2.1 Training samples]#21-training-samples
+    - [2.1 Training samples](#21-training-samples)
     * 单行文本
     * 多行文本
     * 换行
