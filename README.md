@@ -76,5 +76,8 @@ The structure of testing images are organized as below:
 *  The mapped flood extent shapefiles for each day are availabel via https://disk.pku.edu.cn/link/AA07665B4F35C04846AB53BF0DDAD40A46
 *  The final maximum flood extent is stored in the `results/Maximum_flood_extent`. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`.
 ## 3. Flood depth estimation
+The flood depth estimation's code is from https://github.com/csdms-contrib/fwdet/tree/master/qgis_port.
+
+To fulfill the batch-processing, we write the script 
 ## 4. Drainage duration estimation
 ## 5. Figure drawing
