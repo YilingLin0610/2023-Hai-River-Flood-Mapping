@@ -1,7 +1,9 @@
 # 2023-Hai-River-Flood-Mapping
 This repository contains data and codes used in manuscript "Reconstruction of Three-dimensional Inundation Structure Reveals China's Flood Control Empowered by Flood Detention Areas"
 ## 1. Pre-processing to SAR amplitude images.
-The pre-processing to SAR amplitude images involves four key steps:
+**You can run `pre_process_batch.py` to perform pre-processing on the original SAR amplitude images.**
+
+It involves four key steps:
 
 *  **Step 1**: Mosaic the VV and VH images of the same track and same day separately.
 
@@ -30,14 +32,18 @@ We store the original VV and VH images in a folder. Images from the same date ar
 
 ## 2. Deep learning framework
 ### 2.1 Training samples
+**The code for processing the ground truth shapefiles into training and label images can be adapted from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.**
+
+**Note:**
 *  The training samples for the deep learning model are sourced from both **Beijing and Caofeidian, Hebei**. 
 *  We also provide two ground truth shapefiles for evaluating the accuracy of the trained model: one from **Gaofen-1 images of Xiaoqinghe on August 1st**, and another from **Sentinel-1 images of Dongdian on August 5th**. 
 *  These ground truth and nagetive shapefiles are available in the `Deep-learning/Ground_truth/` .
-*  The code for processing the ground truth shapefiles into training and label images can be adapted from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.
 ### 2.2 DeepLabv3+ Model
-We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core components of the DeepLabv3+ model were adapted from
+**For batch processing of the multi-temporal images, we have encapsulated the model functionality (training, prediction, and post-processing) into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.**
+
+The core components of the DeepLabv3+ model were adapted from
 https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
-For batch processing of the multi-temporal images, we have encapsulated the model functionality (training, prediction, and post-processing) into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.
+
 #### 2.2.1 Environment configuration
 For environment configuration, refer to file `env.yaml`
 > conda env create -f env.yaml
