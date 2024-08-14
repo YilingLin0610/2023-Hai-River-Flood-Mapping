@@ -115,7 +115,12 @@ The script encapsulates both the pre-processing and estimation functionalities.
 > *  Clip the fitered maps to the extent of FDA.
 ## 4. Drainage duration calculation
 **You can run the scripts in folder `Drainage_duration_calculation` to calculate the pixel-level draingae duration.**
-*  **Step 1**: Generate a 
+*  **Step 1: Generate an all-zero TIFF file covering the Hai River Basin using the script `Drainage_duration_calculation/All_zero_TIFF.py`.**: 
+
+>  *  This TIFF file extends the flood extent shapefile, which initially covers only one path, to the entire Hai River Basin.
+> 
+>  *  We've uploaded the required input files at `Drainage_duration_calculation/All_zero_TIFF_input`. The `mosaic_all_npy.npy` file is quite large. Please contact the author if you need access to it.
+
 
 
 
