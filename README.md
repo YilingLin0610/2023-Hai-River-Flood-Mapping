@@ -128,7 +128,8 @@ The script encapsulates both the pre-processing and estimation functionalities.
 >  *  We create a 10x10 fishnet to divide the area into manageable regions for calculation.
 >  *  We have uploaded the fishnets to folder `Drainage_duration_calculation/fishnets`
 
-*  **Step 4: Create the fishnet.**
+*  **Step 5: Clip the extended flood extent TIFF files into 10*10 sub-patches using the script `Drainage_duration_calculation/Clip.py`.**
+*  **Step 6: Calculate the drainage using the script `Drainage_duration_calculation/Clip.py`.**
 
 
 
