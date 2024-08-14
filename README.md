@@ -30,7 +30,7 @@ We store the original VV and VH images in a folder. Images from the same date ar
 
 ## 2. Deep learning framework
 ### 2.1 Training samples
-The training samples for the deep learning model are sourced from both Beijing and Caofeidian, Hebei. We also provide two ground truth shapefiles for evaluating the accuracy of the trained model: one from Gaofen-1 images of Xiaoqinghe on August 1st, and another from Sentinel-1 images of Dongdian on August 5th. These ground truth and nagetive shapefiles are available in the `Deep-learning/Ground_truth/` .
+The training samples for the deep learning model are sourced from both **Beijing and Caofeidian, Hebei**. We also provide two ground truth shapefiles for evaluating the accuracy of the trained model: one from **Gaofen-1 images of Xiaoqinghe on August 1st**, and another from **Sentinel-1 images of Dongdian on August 5th**. These ground truth and nagetive shapefiles are available in the** `Deep-learning/Ground_truth/`** .
 The code for processing the ground truth shapefiles into training and label images can be adapted from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.
 ### 2.2 DeepLabv3+ Model
 We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core components of the DeepLabv3+ model were adapted from
