@@ -11,6 +11,9 @@ This repository contains data and codes used in manuscript "Reconstruction of Th
         - [2.2.3 Prediction and post-processing.](#223-prediction-and-post-processing)
     - [2.3 Results](#23-results)
 - [3. Flood depth estimation](#3-flood-depth-estimation)
+    - [3.1 Core code](#31-core-code)
+    - [3.2 Batch processing](#32-batch-processing)
+    - [3.3 Post-processing](#33-post-processing)
 
 
 
@@ -101,6 +104,14 @@ The flood depth estimation's core code is modified from https://github.com/csdms
 *  In the QGIS `Processing Toolbox`, select the python icon drop down, and `Add Script to Toolbox...` then point to the downloaded script.
 *  This should load new algorithms to the `Scripts/FwDET` group on the Processing Toolbox.
 ### 3.2 Batch processing
-To fulfill the batch-processing, we write the script 
+**You can estimate the flood depth in batches by running `Flood-depth-estimation/Depth-estimation-batch.py`.**
+The script encapsulates both the pre-processing and estimation functionalities.
+> *  Elimate the small holes smaller than 50000 m²
+> *  Fix the geometry of the shapefiles
+> *  Estimate the flood depth
+### 3.3 Post-processing
+**You can do post-processing to the flood depth maps by running `Flood-depth-estimation/Batch-process.py`**
+> *  Focal statistics to make the estimated flood depth continous.
+> *  Clip the fitered maps to the extent of FDA.
 ## 4. Drainage duration estimation
 ## 5. Figure drawing
