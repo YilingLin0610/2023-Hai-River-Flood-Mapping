@@ -95,7 +95,7 @@ The structure of testing images are organized as below:
 ```
 ### 2.3 Results
 *  The mapped flood extent shapefiles for each day are availabel via https://disk.pku.edu.cn/link/AA07665B4F35C04846AB53BF0DDAD40A46
-*  The final maximum flood extent is stored in the `results/Maximum_flood_extent`. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`.
+*  The final maximum flood extent is stored in the zipped folder `results/Maximum_flood_extent`. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`.
 ## 3. Flood depth estimation
 ### 3.1 Core code
 The flood depth estimation's core code is modified from https://github.com/csdms-contrib/fwdet/tree/master/qgis_port. Here we made some slight modifications and the modified version can be found in `Flood-depth-estimation/fwdet_21.py`
@@ -132,7 +132,7 @@ The script encapsulates both the pre-processing and estimation functionalities.
 *  **Step 6**: Calculate the drainage duration by regions using the script `Drainage_duration_calculation/Merge_function.py`.
 *  **Step 7**: Merge the sub-regions to get final drainage duration of HRB.
 
-**The drainage duration of whole HRB TIFF file is uploaded to folder `results/Drainge_duration`**
+**The drainage duration of whole HRB TIFF file is uploaded to zipped folder `results/Drainge_duration`**
 
 ## 5. Figure drawing
 The Figure drawing codes are uploade to the folder `Figure_drawing`
