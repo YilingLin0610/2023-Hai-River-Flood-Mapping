@@ -113,9 +113,9 @@ The script encapsulates both the pre-processing and estimation functionalities.
 **You can do post-processing to the flood depth maps by running `Flood-depth-estimation/Batch-process.py`.** Note that the script runs in the ArcPy 2.7 environment.
 > *  Focal statistics to make the estimated flood depth continous.
 > *  Clip the fitered maps to the extent of FDA.
-## 4. Drainage duration estimation
-
-
+## 4. Drainage duration calculation
+**You can run the scripts in folder `Drainage_duration_calculation` to calculate the pixel-level draingae duration.**
+*  **Step 1**: Generate a 
 
 
 
