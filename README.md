@@ -120,8 +120,15 @@ The script encapsulates both the pre-processing and estimation functionalities.
 >  *  This TIFF file extends the flood extent shapefile, which initially covers only one path, to the entire Hai River Basin.
 > 
 >  *  We've uploaded the required input files at `Drainage_duration_calculation/All_zero_TIFF_input`. The `mosaic_all_npy.npy` file is quite large. Please contact the author if you need access to it.
+*  **Step 2: Covert the flood extent shapefiles into TIFF files using ArcMap.**
+>  *  Assign a value of 2 to flooded pixels and a value of 1 to unflooded pixels.
+*  **Step 3: Extend the flood extent TIFF files to cover the entire HRB using the all-zero TIFF file using the script `Drainage_duration_calculation/Extend_to_HRB.py`.**
+*  **Step 4: Create the fishnet.**
+>  *  Given the large size of the HRB, we cannot calculate the drainage duration all at once.
+>  *  We create a 10x10 fishnet to divide the area into manageable regions for calculation.
+>  *  We have uploaded the fishnets to folder `Drainage_duration_calculation/fishnets`
 
-
+*  **Step 4: Create the fishnet.**
 
 
 
