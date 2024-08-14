@@ -37,10 +37,13 @@ We store the original VV and VH images in a folder. Images from the same date ar
 ### 2.2 DeepLabv3+ Model
 We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core components of the DeepLabv3+ model were adapted from
 https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
-For batch processing of the multi-temporal images, we have encapsulated the model functionality into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.
+For batch processing of the multi-temporal images, we have encapsulated the model functionality (training, prediction, and post-processing) into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.
 #### Quick Start
 For environment configuration, refer to file `env.yaml`
 > conda env create -f env.yaml
+#### Train
+In a configured environment, you can simply run main_batch.py to train the model. We have adopted MobileNetV2 as the backbone, which can be found in the `deeplabv3-plus-pytorch-main/model_data` directory.
+> Make sure to annotate the prediction and post-processing functions within the `process_all` function when training. 
 ### 2.3 Post-processing
 
 
