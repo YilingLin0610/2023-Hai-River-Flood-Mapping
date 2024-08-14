@@ -34,7 +34,7 @@ The code for processing the ground truth shapefiles into training and label imag
 ### 2.2 DeepLabv3+ Model
 We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core components of the DeepLabv3+ model were adapted from
 https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
-For batch processing of the multi-temporal images, we have encapsulated the model functionality into functions and provided a script in deeplabv3-plus-pytorch-main/main_batch.py.
+For batch processing of the multi-temporal images, we have encapsulated the model functionality into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.
 ### 2.3 Post-processing
 
 
