@@ -1,5 +1,5 @@
 # 2023-Hai-River-Flood-Mapping
-This repository contains data and codes used in manuscript "Reconstruction of three-dimensional inundation structure reveals China's flood control empowered by flood retention areas"
+This repository contains data and codes used in manuscript "Reconstruction of Three-dimensional Inundation Structure Reveals China's Flood Control Empowered by Flood Detention Areas"
 ## 1. Pre-processing to SAR amplitude images.
 The pre-processing to SAR amplitude images involves four key steps:
 
