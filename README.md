@@ -63,10 +63,10 @@ Here we offer two checkpoints to predict the flood extent.
 *  `logs/0712_Beijing_with_negative_st_0601_plus_0712_V2_more_negative/best_epoch_weights.pth` for predicting manual water bodies on coastal areas.
 The structure of testing images are organized as below:
 ```sh
-- date1 (e.g. August 1st)
+- date1 (e.g. 0601) 
     -- tifs (clipped tifs)
     -- jpgs (clipped jpgs)
-- date2 (e.g. August 7st)
+- date2
     -- tifs (clipped tifs)
     -- jpgs (clipped jpgs)
 -.....
