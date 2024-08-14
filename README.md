@@ -14,7 +14,7 @@ This repository contains data and codes used in manuscript "Reconstruction of Th
     - [3.1 Core code](#31-core-code)
     - [3.2 Batch processing](#32-batch-processing)
     - [3.3 Post-processing](#33-post-processing)
-
+- [4. Drainage duration estimation](#4-drainage-duration-estimation)
 
 
 
@@ -110,8 +110,15 @@ The script encapsulates both the pre-processing and estimation functionalities.
 > *  Fix the geometry of the shapefiles
 > *  Estimate the flood depth
 ### 3.3 Post-processing
-**You can do post-processing to the flood depth maps by running `Flood-depth-estimation/Batch-process.py`**
+**You can do post-processing to the flood depth maps by running `Flood-depth-estimation/Batch-process.py`.** Note that the script runs in the ArcPy 2.7 environment.
 > *  Focal statistics to make the estimated flood depth continous.
 > *  Clip the fitered maps to the extent of FDA.
 ## 4. Drainage duration estimation
+
+
+
+
+
+
+
 ## 5. Figure drawing
