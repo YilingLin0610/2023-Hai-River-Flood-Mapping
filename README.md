@@ -59,8 +59,8 @@ We have adopted MobileNetV2 as the backbone, which can be found in the `deeplabv
 >      * utils/callbacks.py: Edit lines 195 and 205.
 #### 2.2.3 Prediction and post-processing.
 Here we offer two checkpoints to predict the flood extent. 
-*  `logs/0712_Beijing_with_negative_st` for predicting natural water bodies.
-*  `0712_Beijing_with_negative_st_0601_plus_0712_V2_more_negative` for predicting manual water bodies on coastal areas.
+*  `logs/0712_Beijing_with_negative_st/best_epoch_weights.pth` for predicting natural water bodies.
+*  `logs/0712_Beijing_with_negative_st_0601_plus_0712_V2_more_negative/best_epoch_weights.pth` for predicting manual water bodies on coastal areas.
 ## 3. Flood depth estimation
 ## 4. Drainage duration estimation
 ## 5. Figure drawing
