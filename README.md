@@ -130,6 +130,7 @@ The script encapsulates both the pre-processing and estimation functionalities.
 
 *  Step 5: Clip the extended flood extent TIFF files into 10*10 sub-patches using the script `Drainage_duration_calculation/Clip.py`.
 *  Step 6: Calculate the drainage duration by regions using the script `Drainage_duration_calculation/Merge_function.py`.
+*  Step 7: Merge the sub-regions to get final drainage duration of HRB.
 
 
 
