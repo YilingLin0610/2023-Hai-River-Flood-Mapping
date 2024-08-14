@@ -61,6 +61,16 @@ We have adopted MobileNetV2 as the backbone, which can be found in the `deeplabv
 Here we offer two checkpoints to predict the flood extent. 
 *  `logs/0712_Beijing_with_negative_st/best_epoch_weights.pth` for predicting natural water bodies.
 *  `logs/0712_Beijing_with_negative_st_0601_plus_0712_V2_more_negative/best_epoch_weights.pth` for predicting manual water bodies on coastal areas.
+The structure of testing images are organized as below:
+```sh
+- date1 (e.g. August 1st)
+    -- tifs (clipped tifs)
+    -- jpgs (clipped jpgs)
+- date2 (e.g. August 7st)
+    -- tifs (clipped tifs)
+    -- jpgs (clipped jpgs)
+-.....
+```
 ### 2.3 Results
 *  The mapped flood extent shapefiles for each day are availabel via https://disk.pku.edu.cn/link/AA07665B4F35C04846AB53BF0DDAD40A46
 *  The final maximum flood extent is stored in the `results/Maximum_flood_extent`. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`.
