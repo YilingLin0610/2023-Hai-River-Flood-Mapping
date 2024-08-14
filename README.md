@@ -32,9 +32,9 @@ We store the original VV and VH images in a folder. Images from the same date ar
 The training samples for the deep learning model are sourced from both Beijing and Caofeidian, Hebei. The ground truth shapefiles are available in the `Deep-learning/Ground_truth` .
 The code for processing the ground truth shapefiles into training and label images of deep learning models can be adapted from https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Codes/Pre-processing.
 ### 2.2 DeepLabv3+ Model
-We utilized DeepLabv3+ Model to map multi-temporal flood extent. The main body of the DeepLabv3+ Model are modified from 
+We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core components of the DeepLabv3+ model were adapted from
 https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
-For batch processing to the multi-temporal images, we warp the models into functions and offer a `deeplabv3-plus-pytorch-main/main_batch.py`.
+For batch processing of the multi-temporal images, we have encapsulated the model functionality into functions and provided a script in deeplabv3-plus-pytorch-main/main_batch.py.
 ### 2.3 Post-processing
 
 
