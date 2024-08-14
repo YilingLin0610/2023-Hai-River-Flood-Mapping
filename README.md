@@ -39,7 +39,7 @@ We utilized the DeepLabv3+ model to map multi-temporal flood extents. The core c
 https://github.com/bubbliiiing/Semantic-Segmentation/tree/master/deeplab_Mobile.
 For batch processing of the multi-temporal images, we have encapsulated the model functionality into functions and provided a script in `deeplabv3-plus-pytorch-main/main_batch.py`.
 #### Quick Start
-For environment configuration, refer to file 
+For environment configuration, refer to file `env.yaml`
 > conda env create -f env.yaml
 ### 2.3 Post-processing
 
