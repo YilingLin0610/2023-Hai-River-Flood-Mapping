@@ -1,4 +1,4 @@
-# 2023-Hai-River-Flood-Mapping
+# 2023 Hai River Flood Mapping
 This repository contains data and codes used in manuscript "Reconstruction of Three-dimensional Inundation Structure Reveals China's Flood Control Empowered by Flood Detention Areas"
 
 ## Table of Contents
