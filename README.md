@@ -136,4 +136,5 @@ The script encapsulates both the pre-processing and estimation functionalities.
 
 ## 5. Figure drawing
 The Figure drawing codes are uploade to the folder `Figure_drawing`.
+These figures contains a bar figure in Fig1C.
 
