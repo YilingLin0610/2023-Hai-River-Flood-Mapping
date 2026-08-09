@@ -95,7 +95,7 @@ The structure of testing images are organized as below:
 ```
 ### 2.3 Results
 *  The mapped flood extent shapefiles for each day are availabel via https://disk.pku.edu.cn/link/AA07665B4F35C04846AB53BF0DDAD40A46
-*  The final maximum flood extent is stored in https://disk.pku.edu.cn/link/AACF5D5936AC7F4FDBA0DEF4EC9B75F8D7. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`.
+*  The final maximum flood extent is stored in https://disk.pku.edu.cn/link/AACF5D5936AC7F4FDBA0DEF4EC9B75F8D7. Note that polygons smaller than 2000 m² have been removed from this shapefile using a script `Delete_small_polygons.py`. We manually remove false flood detections associated with seasonal water dynamics in aquaculture ponds along the Bohai coast, as these false positives cannot be effectively filtered using changes in water extent alone. We also remove visually apparent anomalous detections on the leeward slopes of the Taihang Mountains, given that the extreme rainfall is predominantly concentrated on the eastern windward slopes and has a substantially weaker influence on the leeward side.
 ## 3. Flood depth estimation
 ### 3.1 Core code
 The flood depth estimation's core code is modified from https://github.com/csdms-contrib/fwdet/tree/master/qgis_port. Here we made some slight modifications and the modified version can be found in `Flood-depth-estimation/fwdet_21.py`
